@@ -1,0 +1,74 @@
+#chat_title,
+#chat_pane {
+    -fx-background-color: lightgray;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+
+    -fx-border-radius: 10;
+    -fx-border-insets: 10;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+.button {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-size: 50 50;
+
+}
+
+#attach_button {
+    -fx-background-image: url("../graphic/icons/plus.png");
+
+    -fx-background-size: 40px;
+}
+
+#send_button {
+    -fx-background-image: url("../graphic/icons/send.png");
+
+    -fx-background-size: 40px;
+}
+
+#emoji_button {
+    -fx-background-image: url("../graphic/icons/emoji.png");
+
+    -fx-background-size: 40px;
+}
+
+#return_button {
+    -fx-background-image: url("../graphic/icons/return.png");
+    -fx-background-size: 40px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+.image-view {
+    -fx-image: url("../graphic/icons/user.png");
+    -fx-size: 50px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+.text1,
+.text2 {
+    -fx-pref-height: 35;
+}
+
+.text1 {
+    -fx-background-color: lightblue;
+    -fx-background-radius: 15 0 15 15;
+}
+
+.text2 {
+    -fx-background-color: lightgray;
+    -fx-background-radius: 0 15 15 15;
+}
